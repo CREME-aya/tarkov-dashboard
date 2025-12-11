@@ -70,7 +70,8 @@ TRANSLATIONS = {
         "col_cost": "材料費",
         "col_profit": "粗利益",
         "col_time": "所要時間",
-        "col_profit_per_hour": "時間効率"
+        "col_profit_per_hour": "時間効率",
+        "disclaimer": "本アプリは非公式であり、Battlestate Gamesとは関係ありません。"
     },
     "en": {
         "title": "Tarkov Tactical Dashboard",
@@ -142,6 +143,7 @@ TRANSLATIONS = {
         "col_cost": "Cost",
         "col_profit": "Profit",
         "col_time": "Time",
-        "col_profit_per_hour": "Profit/Hr"
+        "col_profit_per_hour": "Profit/Hr",
+        "disclaimer": "This app is unofficial and not affiliated with Battlestate Games."
     }
 }

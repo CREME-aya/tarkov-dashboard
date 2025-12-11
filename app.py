@@ -110,8 +110,14 @@ feature_keys = ["ammo", "price", "task", "craft"]
 feature_names = [t(f"features")[k] for k in feature_keys]
 current_feature_name = st.sidebar.selectbox(t("select_feature"), feature_names)
 
+
 # 選択された機能のキーを特定
 current_feature = feature_keys[feature_names.index(current_feature_name)]
+
+st.sidebar.markdown("---")
+st.sidebar.caption(t("disclaimer"))
+st.sidebar.markdown("[Powered by Tarkov.dev](https://tarkov.dev/)")
+
 
 
 st.title(t("title"))
